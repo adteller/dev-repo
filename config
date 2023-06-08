@@ -1,0 +1,15 @@
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+[remote "origin"]
+        url = https://github.com/adteller/dev-repo.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[alias]
+        history = log --graph
+[user]
+        name = Anton
+        email = anton@email.com
